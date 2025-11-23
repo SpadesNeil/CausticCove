@@ -156,9 +156,9 @@
 	gunchannel = SSsounds.random_available_channel()
 
 	if(istype(A, /obj/item/ammo_box) || istype(A, /obj/item/ammo_casing))
-		/*if(A in user.held_items) // Todo: Unfuck this before merging. -Ace
-			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.")
-			return*/
+		if(!A in user.held_items)
+			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.</span>")
+			return
 		if(chambered)
 			to_chat(user, "<span class='warning'>There is already [chambered] in [src]!</span>")
 			return
@@ -178,9 +178,9 @@
 		if(gunpowder)
 			user.visible_message("<span class='warning'>[src] is already filled with gunpowder!</span>")
 			return
-		/*if(A in user.held_items) // Todo: Unfuck this before merging. -Ace
-			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.")
-			return*/
+		if(!A in user.held_items)
+			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.</span>")
+			return
 		else
 			playsound(src, "modular_causticcove/sound/arquebus/pour_powder.ogg",  100)
 			if(do_after(user, load_time_skill, src))
@@ -191,9 +191,9 @@
 		var/obj/item/ramrod/R=A
 		if(!reloaded)
 			if(chambered)
-				/*if(A in user.held_items) // Todo: Unfuck this before merging. -Ace
-					to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.")
-					return*/
+				if(!A in user.held_items)
+					to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.</span>")
+					return
 				user.visible_message("<span class='notice'>[user] begins ramming the [R.name] down the barrel of [src].</span>")
 				playsound(src, "modular_causticcove/sound/arquebus/ramrod.ogg",  100)
 				if(do_after(user, load_time_skill, src))
@@ -364,9 +364,9 @@
 	gunchannel = SSsounds.random_available_channel()
 
 	if(istype(A, /obj/item/ammo_box) || istype(A, /obj/item/ammo_casing))
-		/*if(A in user.held_items) // Todo: Unfuck this before merging. -Ace
-			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.")
-			return*/
+		if(!A in user.held_items)
+			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.</span>")
+			return
 		if(chambered)
 			to_chat(user, "<span class='warning'>There is already [chambered] in [src]!</span>")
 			return
@@ -386,9 +386,9 @@
 		if(gunpowder)
 			user.visible_message("<span class='warning'>[src] is already filled with gunpowder!</span>")
 			return
-		/*if(A in user.held_items) // Todo: Unfuck this before merging. -Ace
-			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.")
-			return*/
+		if(!A in user.held_items)
+			to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.</span>")
+			return
 		else
 			playsound(src, "modular_causticcove/sound/arquebus/pour_powder.ogg",  100)
 			if(do_after(user, load_time_skill, src))
@@ -399,9 +399,9 @@
 		var/obj/item/ramrod/R=A
 		if(!reloaded)
 			if(chambered)
-				/*if(A in user.held_items) // Todo: Unfuck this before merging. -Ace
-					to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.")
-					return*/
+				if(!A in user.held_items)
+					to_chat(user, "<span class='warning'>You need to be holding [A] to reload it.</span>")
+					return
 				user.visible_message("<span class='notice'>[user] begins ramming the [R.name] down the barrel of [src].</span>")
 				playsound(src, "modular_causticcove/sound/arquebus/ramrod.ogg",  100)
 				if(do_after(user, load_time_skill, src))
