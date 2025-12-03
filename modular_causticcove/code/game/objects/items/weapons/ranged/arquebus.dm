@@ -183,7 +183,7 @@
 			return*/
 		else
 			playsound(src, "modular_causticcove/sound/arquebus/pour_powder.ogg",  100)
-			if(do_after(user, load_time_skill, src))
+			if(!move_after(user, load_time_skill, src)) // Todo - Skill gate
 				user.visible_message("<span class='notice'>[user] fills [src] with gunpowder.</span>")
 				gunpowder = TRUE
 			return
@@ -196,7 +196,7 @@
 					return*/
 				user.visible_message("<span class='notice'>[user] begins ramming the [R.name] down the barrel of [src].</span>")
 				playsound(src, "modular_causticcove/sound/arquebus/ramrod.ogg",  100)
-				if(do_after(user, load_time_skill, src))
+				if(!move_after(user, load_time_skill, src)) // Todo - Skill gate
 					user.visible_message("<span class='notice'>[user] has finished reloading [src].</span>")
 					reloaded = TRUE
 				return
@@ -391,7 +391,7 @@
 			return*/
 		else
 			playsound(src, "modular_causticcove/sound/arquebus/pour_powder.ogg",  100)
-			if(do_after(user, load_time_skill, src))
+			if(!move_after(user, load_time_skill, src)) // Todo - Skill gate
 				user.visible_message("<span class='notice'>[user] fills [src] with gunpowder.</span>")
 				gunpowder = TRUE
 			return
@@ -404,7 +404,7 @@
 					return*/
 				user.visible_message("<span class='notice'>[user] begins ramming the [R.name] down the barrel of [src].</span>")
 				playsound(src, "modular_causticcove/sound/arquebus/ramrod.ogg",  100)
-				if(do_after(user, load_time_skill, src))
+				if(!move_after(user, load_time_skill, src)) // Todo - Skill gate
 					user.visible_message("<span class='notice'>[user] has finished reloading [src].</span>")
 					reloaded = TRUE
 				return
