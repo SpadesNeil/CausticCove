@@ -731,6 +731,10 @@
 /obj/structure/fermentation_keg/whitewine,
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors/inq)
+"akB" = (
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/metal/barograte/open,
+/area/rogue/under/underdark/north)
 "akF" = (
 /obj/structure/fluff/psycross/psycrucifix/silver,
 /obj/structure/fluff/walldeco/chains,
@@ -1222,6 +1226,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/blacksteel_equipment_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/his_vault)
 "apn" = (
@@ -1630,6 +1635,7 @@
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/indoors/shelter)
 "auy" = (
@@ -1697,6 +1703,8 @@
 /obj/item/ingot/copper,
 /obj/item/ingot/copper,
 /obj/item/ingot/copper,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/concrete,
 /area/rogue/under/underdark/north)
 "avD" = (
@@ -2855,6 +2863,7 @@
 /obj/item/roguegem/random,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/church,
 /area/rogue/under/cave/orcdungeon)
 "aKL" = (
@@ -2876,6 +2885,8 @@
 /obj/item/roguecoin/aalloy/pile,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/under/cave/his_vault/four)
 "aKN" = (
@@ -3494,6 +3505,10 @@
 /obj/machinery/light/rogue/wallfire/candle/off/r,
 /turf/open/floor/rogue/metal,
 /area/rogue/outdoors/mountains/decap/gunduzirak)
+"aTv" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_3,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "aTD" = (
 /obj/structure/fluff/railing/wood/north,
 /turf/open/floor/rogue/woodturned,
@@ -3728,6 +3743,10 @@
 /obj/structure/flora/newleaf,
 /turf/open/transparent/openspace,
 /area/rogue/druidsgrove)
+"aWA" = (
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/underdark/north)
 "aWC" = (
 /obj/structure/bars/passage{
 	redstone_id = "psy_swamp_d_b1"
@@ -4368,6 +4387,11 @@
 /obj/structure/table/wood/poor,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/tavern)
+"beD" = (
+/obj/structure/bars/pipe,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/underdark/north)
 "beE" = (
 /obj/structure/table/wood/poor/alt,
 /turf/open/floor/rogue/dirt/road,
@@ -4761,6 +4785,7 @@
 "blv" = (
 /obj/structure/closet/crate/roguecloset,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/twig,
 /area/rogue/under/cavewet/bogcaves/west)
 "blI" = (
@@ -6418,6 +6443,10 @@
 /obj/effect/landmark/chest_or_mimic/loot_chest,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/cave)
+"bGR" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "bGU" = (
 /obj/structure/spider/stickyweb,
 /obj/machinery/light/rogue/wallfire/candle/blue{
@@ -7165,6 +7194,7 @@
 "bQJ" = (
 /obj/item/fishingrod,
 /obj/structure/closet/crate/chest/old_crate,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter)
 "bQN" = (
@@ -8043,6 +8073,14 @@
 /obj/structure/fluff/railing/corner/south_west,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/rtfield)
+"ccN" = (
+/obj/effect/decal/cobbleedge{
+	dir = 5;
+	pixel_x = -10
+	},
+/obj/effect/spawner/lootdrop/magic_loot_tier_3,
+/turf/open/floor/rogue/cobble/mossy,
+/area/rogue/outdoors/bog/north)
 "ccQ" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
@@ -8472,6 +8510,7 @@
 /obj/structure/fluff/railing/border/north,
 /obj/machinery/light/rogue/wallfire/candle/blue/r,
 /obj/structure/closet/crate/chest/lootbox,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors/shelter)
 "cik" = (
@@ -9046,6 +9085,13 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/mazedungeon)
+"coZ" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/concrete{
+	color = "#3b444b"
+	},
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "cpa" = (
 /obj/structure/roguethrone,
 /obj/structure/roguemachine/titan{
@@ -11474,6 +11520,7 @@
 "cVT" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/armor,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/outdoors/beach)
 "cVW" = (
@@ -11955,6 +12002,7 @@
 /obj/structure/rack/rogue,
 /obj/item/flashlight/flare/torch/metal,
 /obj/effect/spawner/lootdrop/general_loot_mid/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cavewet/bogcaves/west)
 "dcH" = (
@@ -13869,6 +13917,11 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/rogue/indoors/town/tavern)
+"dAB" = (
+/obj/structure/closet/crate/chest,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/beach/north)
 "dAI" = (
 /obj/structure/chair/bench/ultimacouch,
 /turf/open/floor/carpet/royalblack,
@@ -14061,6 +14114,7 @@
 /area/rogue/druidsgrove)
 "dDp" = (
 /obj/structure/closet/crate/chest,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/shelter)
 "dDv" = (
@@ -14201,6 +14255,7 @@
 	},
 /obj/item/roguegear,
 /obj/item/ingot/copper,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/concrete,
 /area/rogue/under/underdark/north)
 "dFD" = (
@@ -14284,6 +14339,7 @@
 "dGz" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/effect/spawner/lootdrop/roguetown/sewers,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/cave)
 "dGE" = (
@@ -14790,6 +14846,7 @@
 "dMS" = (
 /obj/structure/table/church,
 /obj/effect/spawner/lootdrop/potion_vitals,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/church,
 /area/rogue/indoors/shelter)
 "dMT" = (
@@ -15162,6 +15219,7 @@
 /obj/structure/table/church/end,
 /obj/effect/spawner/lootdrop/valuable_candle_spawner,
 /obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/church,
 /area/rogue/indoors/shelter)
 "dRp" = (
@@ -15912,6 +15970,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/armor,
 /obj/item/ingot/blacksteel,
 /obj/structure/ritualcircle/zizo,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
 /turf/open/floor/rogue/greenstone,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "ebo" = (
@@ -17388,6 +17447,7 @@
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/armor,
 /obj/machinery/light/rogue/torchholder/r,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter)
 "ets" = (
@@ -17583,6 +17643,10 @@
 "ewb" = (
 /obj/structure/fluff/railing/corner/south_east,
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/under/cave/dukecourt)
+"ewe" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
+/turf/open/floor/rogue/dirt,
 /area/rogue/under/cave/dukecourt)
 "ewh" = (
 /obj/structure/closet/crate/chest/neu_fancy{
@@ -18431,6 +18495,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/medium_armor_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/under/cave/his_vault)
 "eGk" = (
@@ -19024,6 +19089,10 @@
 "eMU" = (
 /turf/open/water/cleanshallow,
 /area/rogue/under/town/sewer)
+"eMZ" = (
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/underdark/north)
 "eNc" = (
 /obj/structure/table/vtable,
 /obj/item/paper/scroll,
@@ -20145,6 +20214,8 @@
 /obj/item/roguecoin/aalloy/pile,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/under/cave/his_vault/four)
 "fbS" = (
@@ -21731,6 +21802,7 @@
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/structure/table/optable,
 /obj/effect/mob_spawn/human/corpse/damaged,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/skeletoncrypt)
 "fui" = (
@@ -22437,6 +22509,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /obj/item/storage/belt/rogue/pouch/coins/rich,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/wood/herringbone,
 /area/rogue/outdoors/mountains/decap/gunduzirak/bossarena)
 "fDl" = (
@@ -23061,6 +23134,10 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/inq)
+"fLF" = (
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/herringbone,
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "fLG" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/rogue/AzureSand,
@@ -23239,6 +23316,10 @@
 	},
 /turf/open/floor/rogue/carpet/lord/center/no_teleport,
 /area/rogue/under/cave/licharena)
+"fOx" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
+/turf/open/floor/rogue/dirt,
+/area/rogue/under/cave/dukecourt)
 "fOD" = (
 /obj/structure/rack/rogue,
 /obj/item/ingot/iron,
@@ -26781,7 +26862,7 @@
 /obj/structure/table/wood/poor{
 	pixel_y = -4
 	},
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/mountains)
 "gHv" = (
@@ -27626,6 +27707,7 @@
 "gRg" = (
 /obj/structure/table/wood/poor,
 /obj/effect/spawner/lootdrop/roguetown/dungeon,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet/bogcaves/west)
 "gRk" = (
@@ -28826,6 +28908,11 @@
 	},
 /turf/open/floor/rogue/church,
 /area/rogue/indoors/town/tavern)
+"heP" = (
+/obj/structure/closet/crate/chest/lootbox,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
+/turf/open/floor/rogue/wood,
+/area/rogue/indoors/shelter)
 "hfa" = (
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/church/chapel)
@@ -34802,6 +34889,8 @@
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/spawner/lootdrop/valuable_clutter_spawner,
 /obj/effect/spawner/lootdrop/valuable_clutter_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/shelter)
 "iBs" = (
@@ -37875,6 +37964,11 @@
 /obj/structure/fluff/grindwheel,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town)
+"jqM" = (
+/obj/structure/bars/pipe,
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/underdark/north)
 "jqN" = (
 /obj/structure/fluff/railing/border/north,
 /turf/open/floor/rogue/rooftop/green/north,
@@ -37934,6 +38028,8 @@
 /obj/effect/spawner/lootdrop/general_loot_low/x3,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/his_vault/four)
 "jrG" = (
@@ -38841,6 +38937,7 @@
 /obj/effect/spawner/lootdrop/potion_vitals,
 /obj/item/roguegem/random,
 /obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/outdoors/beach/north)
 "jDi" = (
@@ -40397,6 +40494,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
 /obj/item/clothing/neck/roguetown/collar,
 /obj/item/leash/leather,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/wood/nosmooth,
 /area/rogue/under/underdark/south)
 "jXc" = (
@@ -42249,6 +42347,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/materials,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/materials,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/tools,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/greenstone,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "kuf" = (
@@ -42683,6 +42782,7 @@
 /obj/item/natural/bundle/bone/full,
 /obj/effect/spawner/lootdrop/general_loot_low,
 /obj/item/roguecoin/aalloy/pile,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cave/his_vault/four)
 "kzK" = (
@@ -43960,6 +44060,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/beach/north)
+"kOJ" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_3,
+/turf/open/floor/rogue/herringbone,
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "kOK" = (
 /obj/machinery/light/rogue/torchholder/c,
 /turf/open/floor/rogue/dirt,
@@ -45243,6 +45347,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/general_loot_hi,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/his_vault)
 "lfO" = (
@@ -46284,6 +46389,8 @@
 /obj/structure/table/wood/fancy/black,
 /obj/item/ingot/silver,
 /obj/item/ingot/silver,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/mazedungeon)
 "lsa" = (
@@ -50404,6 +50511,7 @@
 /area/rogue/indoors/town/manor)
 "mrc" = (
 /obj/structure/rack/rogue,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/dirt,
 /area/rogue/under/cavewet/bogcaves/west)
 "mrg" = (
@@ -52364,6 +52472,7 @@
 /area/rogue/indoors)
 "mPR" = (
 /obj/structure/closet/crate/roguecloset,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/under/underdark/south)
 "mPS" = (
@@ -54256,6 +54365,7 @@
 /area/rogue/indoors/town/manor)
 "nqb" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/herringbone,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "nqd" = (
@@ -55135,6 +55245,7 @@
 /area/rogue/outdoors/mountains)
 "nBK" = (
 /obj/effect/decal/remains/human,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/carpet/purple,
 /area/rogue/indoors/shelter)
 "nBM" = (
@@ -55302,6 +55413,7 @@
 "nEg" = (
 /obj/structure/closet/crate/chest/gold,
 /obj/item/roguestatue/gold/loot,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/cave/fishmandungeon)
 "nEi" = (
@@ -55591,6 +55703,7 @@
 "nHW" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/materials,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/under/cavewet/bogcaves/south)
 "nHZ" = (
@@ -59423,6 +59536,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon,
 /obj/item/roguegem/random,
 /obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/outdoors/beach/north)
 "oGp" = (
@@ -60004,6 +60118,7 @@
 "oOd" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/reagent_containers/glass/bottle/rogue/healthpot,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/under/cavewet/bogcaves/south)
 "oOn" = (
@@ -60175,6 +60290,7 @@
 /obj/item/roguecoin/aalloy,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/his_vault/four)
 "oQs" = (
@@ -60357,6 +60473,7 @@
 /area/rogue/under/cave/dukecourt)
 "oSF" = (
 /obj/structure/fluff/alch,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/mazedungeon)
 "oSM" = (
@@ -60391,6 +60508,7 @@
 /obj/effect/spawner/lootdrop/medium_armor_spawner,
 /obj/item/ingot/blacksteel,
 /obj/item/ingot/blacksteel,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cave/orcdungeon)
 "oTi" = (
@@ -61316,6 +61434,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
 /obj/structure/ritualcircle/zizo,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/greenstone,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "pfq" = (
@@ -62374,6 +62493,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/spells,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/spells,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/spells,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/mazedungeon)
 "ptk" = (
@@ -62916,6 +63036,8 @@
 /obj/structure/table/church,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/tile/masonic/inverted,
 /area/rogue/outdoors/mountains/decap/gunduzirak/bossarena)
 "pAi" = (
@@ -63065,6 +63187,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon,
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /obj/structure/closet/crate/chest/neu_iron,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet/bogcaves/west)
 "pBN" = (
@@ -63286,6 +63409,11 @@
 /obj/structure/fluff/railing/corner,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/indoors/cave)
+"pET" = (
+/obj/structure/closet/crate/roguecloset,
+/obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/indoors)
 "pEY" = (
 /obj/machinery/light/rogue/firebowl/standing/blue,
 /turf/open/floor/rogue/churchmarble,
@@ -64173,6 +64301,7 @@
 "pQa" = (
 /obj/structure/closet/crate/chest,
 /obj/effect/spawner/lootdrop/general_loot_hi/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/metal,
 /area/rogue/outdoors/mountains/decap/minotaurfort)
 "pQb" = (
@@ -64233,6 +64362,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon,
 /obj/item/reagent_containers/glass/bottle/rogue/healthpot,
 /obj/effect/spawner/lootdrop/general_loot_low/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cavewet/bogcaves/west)
 "pQN" = (
@@ -64791,6 +64921,20 @@
 /obj/structure/fluff/railing/corner,
 /turf/open/transparent/openspace,
 /area/rogue/outdoors/town/roofs/keep)
+"pYL" = (
+/obj/structure/closet/crate/coffin/keylock/psydung,
+/obj/item/skull,
+/obj/item/natural/bundle/bone/full,
+/obj/item/natural/bundle/bone/full,
+/obj/item/natural/bundle/bone/full,
+/obj/effect/spawner/lootdrop/general_loot_low,
+/obj/item/roguecoin/aalloy,
+/obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
+/turf/open/floor/rogue/cobble,
+/area/rogue/under/cave/his_vault/four)
 "pYR" = (
 /obj/structure/chair/wood/rogue{
 	dir = 1
@@ -64864,6 +65008,16 @@
 /obj/structure/fluff/railing/border/north,
 /turf/open/floor/rogue/grass,
 /area/rogue/indoors/inq)
+"pZB" = (
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/underdark/north)
 "pZL" = (
 /mob/living/carbon/human/species/goblin/npc/ambush/sea,
 /obj/structure/bed/rogue/shit,
@@ -64889,6 +65043,7 @@
 "qag" = (
 /obj/structure/rack/rogue/shelf/biggest,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/shelter)
 "qat" = (
@@ -65070,6 +65225,7 @@
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /obj/effect/spawner/lootdrop/general_loot_hi/x3,
 /obj/structure/ritualcircle/zizo,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
 /turf/open/floor/rogue/greenstone,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "qcv" = (
@@ -65148,6 +65304,7 @@
 	icon_state = "shelf_biggest";
 	pixel_y = 0
 	},
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
 /turf/open/floor/rogue/greenstone,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "qcY" = (
@@ -65310,6 +65467,10 @@
 /obj/structure/flora/newtree,
 /turf/open/floor/rogue/snow,
 /area/rogue/outdoors/beach/forest/south)
+"qft" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/turf/open/floor/rogue/metal/barograte/open,
+/area/rogue/under/underdark/north)
 "qfv" = (
 /obj/item/roguekey{
 	icon_state = "brownkey";
@@ -65461,6 +65622,7 @@
 /area/rogue/under/town/sewer)
 "qha" = (
 /obj/structure/closet/crate/chest/wicker,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/skeletoncrypt)
 "qhb" = (
@@ -65510,6 +65672,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/heavy_armor_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/under/cave/his_vault)
 "qhV" = (
@@ -65579,6 +65742,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/silver_weapon_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/his_vault)
 "qjh" = (
@@ -66204,6 +66368,10 @@
 /obj/machinery/light/rogue/campfire/densefire,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/town)
+"qqT" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
+/turf/open/floor/rogue/herringbone,
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "qqY" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/rogue/tile/brownbrick,
@@ -66243,6 +66411,7 @@
 /obj/structure/closet/crate/coffin,
 /obj/item/listenstone,
 /obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/cavewet/bogcaves/north)
 "qry" = (
@@ -67128,6 +67297,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/helmet_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/under/cave/his_vault)
 "qCH" = (
@@ -67277,6 +67447,10 @@
 "qDN" = (
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/rogue/indoors)
+"qDO" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/underdark/north)
 "qDQ" = (
 /mob/living/carbon/human/species/skeleton/npc/medium,
 /turf/open/floor/rogue/dirt,
@@ -67650,6 +67824,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/medium_armor_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/under/cave/his_vault)
 "qIr" = (
@@ -67824,6 +67999,7 @@
 /area/rogue/under/town/sewer)
 "qKo" = (
 /obj/structure/closet/crate/chest/old_crate,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/under/underdark/south)
 "qKs" = (
@@ -68574,6 +68750,7 @@
 	lockid = "psy_bog_dung_lootkey_two"
 	},
 /obj/effect/spawner/lootdrop/steel_weapon_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/under/cave/his_vault)
 "qTC" = (
@@ -69633,6 +69810,7 @@
 /obj/effect/spawner/lootdrop/general_loot_hi/x3,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/church,
 /area/rogue/under/cave/orcdungeon)
 "rgw" = (
@@ -70685,6 +70863,7 @@
 "ruN" = (
 /obj/effect/spawner/lootdrop/general_loot_hi,
 /obj/structure/table/wood/large_table,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
 /turf/open/floor/rogue/blocks,
 /area/rogue/under/cavewet/bogcaves/west)
 "ruP" = (
@@ -71013,6 +71192,7 @@
 "ryF" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter)
 "ryG" = (
@@ -73546,6 +73726,7 @@
 /obj/structure/closet/crate/coffin,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/tools,
 /obj/item/roguegem/random,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/cavewet/bogcaves/north)
 "sjq" = (
@@ -73939,6 +74120,8 @@
 /obj/item/ingot/silver,
 /obj/item/ingot/silver,
 /obj/item/ingot/silver,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/church,
 /area/rogue/under/cave/licharena/bossroom)
 "snA" = (
@@ -74131,6 +74314,7 @@
 /obj/structure/closet/crate/chest/crafted,
 /obj/effect/spawner/lootdrop/general_loot_mid/x3,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/mountains)
 "spu" = (
@@ -74405,6 +74589,7 @@
 	},
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /obj/effect/spawner/lootdrop/general_loot_hi/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
 /turf/open/floor/rogue/greenstone,
 /area/rogue/under/cave/dungeon1/gethsmane/inner)
 "srX" = (
@@ -74422,6 +74607,8 @@
 /obj/item/natural/bundle/bone/full,
 /obj/item/natural/bundle/bone/full,
 /obj/item/natural/bundle/bone/full,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/cave/his_vault/four)
 "ssc" = (
@@ -74879,6 +75066,7 @@
 /obj/structure/closet/crate/chest,
 /obj/item/ingot/copper,
 /obj/item/ingot/copper,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/concrete,
 /area/rogue/under/underdark/north)
 "sxf" = (
@@ -75701,6 +75889,11 @@
 "sIM" = (
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/under/cave/mazedungeon)
+"sIN" = (
+/obj/structure/closet/crate/chest/lootbox,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/beach/north)
 "sIU" = (
 /obj/structure/flora/roguegrass/herb/random,
 /turf/open/floor/rogue/dirt/road,
@@ -75733,6 +75926,10 @@
 	},
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/shop)
+"sJv" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_3,
+/turf/open/floor/rogue/dirt,
+/area/rogue/under/cave/dukecourt)
 "sJJ" = (
 /obj/structure/stairs{
 	dir = 1
@@ -75790,6 +75987,7 @@
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/indoors/shelter)
 "sKt" = (
@@ -76517,6 +76715,8 @@
 /obj/item/ingot/gold,
 /obj/item/ingot/gold,
 /obj/item/ingot/gold,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/church,
 /area/rogue/under/cave/licharena/bossroom)
 "sTG" = (
@@ -77841,6 +78041,7 @@
 "tkR" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/outdoors/beach)
 "tkS" = (
@@ -79541,6 +79742,8 @@
 /obj/item/clothing/head/roguetown/helmet/blacksteel/bucket,
 /obj/item/clothing/shoes/roguetown/boots/blacksteel/plateboots,
 /obj/item/clothing/under/roguetown/platelegs/blacksteel,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/church,
 /area/rogue/under/cave/licharena/bossroom)
 "tGW" = (
@@ -79699,6 +79902,7 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10
 	},
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/outdoors/bog/north)
 "tJr" = (
@@ -80140,6 +80344,10 @@
 /obj/item/roguebin/water,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/steward)
+"tPx" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "tPz" = (
 /turf/closed/mineral/random/rogue/med,
 /area/rogue/outdoors/bog/south)
@@ -80347,6 +80555,11 @@
 /obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/grassyel,
 /area/rogue/outdoors/rtfield/abandonedhotsprings)
+"tSq" = (
+/obj/structure/bars/pipe,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/turf/open/floor/rogue/metal/barograte,
+/area/rogue/under/underdark/north)
 "tSu" = (
 /obj/structure/chair/wood/rogue{
 	dir = 8
@@ -80479,6 +80692,8 @@
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/food,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/food,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/cave)
 "tTQ" = (
@@ -80631,6 +80846,7 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/materials,
 /obj/item/flashlight/flare/torch/lantern,
 /obj/effect/decal/cleanable/dirt/cobweb,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors)
 "tVJ" = (
@@ -81660,6 +81876,10 @@
 /obj/structure/bookcase/random/archive,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/steward)
+"uix" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
+/turf/open/floor/rogue/cobble,
+/area/rogue/under/cave/skeletoncrypt)
 "uiz" = (
 /obj/structure/roguewindow/openclose{
 	dir = 1
@@ -82435,6 +82655,9 @@
 /area/rogue/under/cave)
 "usy" = (
 /obj/structure/closet/crate/chest,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/mountains/decap/minotaurfort)
 "usI" = (
@@ -84726,6 +84949,7 @@
 "uTm" = (
 /obj/structure/table/wood/poor,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter)
 "uTq" = (
@@ -85446,6 +85670,10 @@
 	dir = 4
 	},
 /area/rogue/indoors/town/physician)
+"vcm" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
+/turf/open/floor/rogue/herringbone,
+/area/rogue/under/cave/dungeon1/gethsmane/inner)
 "vcx" = (
 /obj/structure/fluff/railing/border/west{
 	dir = 9
@@ -86685,6 +86913,7 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10
 	},
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/outdoors/bog/north)
 "vqV" = (
@@ -87327,6 +87556,7 @@
 "vyT" = (
 /obj/structure/table/wood/poor/alt,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/tools,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter)
 "vyW" = (
@@ -88544,6 +88774,8 @@
 	},
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
 /obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cave/his_vault/four)
 "vOf" = (
@@ -88982,6 +89214,20 @@
 	},
 /turf/open/floor/rogue/woodturned,
 /area/rogue/indoors/town)
+"vTz" = (
+/obj/structure/closet/crate/coffin/keylock/psydung,
+/obj/item/skull,
+/obj/item/natural/bundle/bone/full,
+/obj/item/natural/bundle/bone/full,
+/obj/item/natural/bundle/bone/full,
+/obj/effect/spawner/lootdrop/general_loot_low,
+/obj/item/roguecoin/aalloy,
+/obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/valuable_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
+/turf/open/floor/rogue/cobble,
+/area/rogue/under/cave/his_vault/four)
 "vTC" = (
 /obj/structure/table/wood/long_table,
 /obj/machinery/light/rogue/wallfire/candle/floorcandle,
@@ -89745,6 +89991,10 @@
 /obj/item/natural/stone,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town)
+"wdv" = (
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/dirt,
+/area/rogue/under/cave/skeletoncrypt)
 "wdz" = (
 /obj/structure/fluff/railing/corner/south_east,
 /turf/open/floor/rogue/grassred,
@@ -89922,6 +90172,7 @@
 "wfK" = (
 /obj/structure/closet/crate/chest/crafted,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/armor,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1,
 /turf/open/water/swamp/deep,
 /area/rogue/indoors/shelter)
 "wfL" = (
@@ -90158,6 +90409,7 @@
 /obj/structure/closet/crate/chest/wicker,
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /obj/effect/spawner/lootdrop/roguetown/sewers,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/cave)
 "wik" = (
@@ -91007,6 +91259,8 @@
 /obj/item/ingot/blacksteel,
 /obj/item/ingot/blacksteel,
 /obj/item/ingot/blacksteel,
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/church,
 /area/rogue/under/cave/licharena/bossroom)
 "wvb" = (
@@ -91460,6 +91714,11 @@
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/under/cave/his_vault)
+"wAH" = (
+/obj/structure/table/wood/poor,
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/twig,
+/area/rogue/indoors/shelter/woods)
 "wAJ" = (
 /obj/structure/mineral_door/bars{
 	lockid = "graveyard"
@@ -91630,6 +91889,10 @@
 "wCI" = (
 /turf/open/floor/carpet/stellar,
 /area/rogue/indoors/town/shop)
+"wCJ" = (
+/obj/effect/spawner/lootdrop/magic_loot_tier_3/x3,
+/turf/open/floor/rogue/dirt,
+/area/rogue/under/cave/dukecourt)
 "wCL" = (
 /obj/structure/fluff/walldeco/bigpainting,
 /turf/open/floor/rogue/churchmarble,
@@ -92345,6 +92608,12 @@
 /obj/effect/landmark/start/churchling,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/church/chapel)
+"wLJ" = (
+/obj/structure/closet/crate/chest/crate,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/materials,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2,
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/under/cavewet/bogcaves/south)
 "wLL" = (
 /obj/structure/fluff/statue/knight,
 /turf/open/floor/rogue/cobble,
@@ -92736,6 +93005,7 @@
 /obj/structure/closet/crate/chest/crafted,
 /obj/effect/spawner/lootdrop/general_loot_mid/x3,
 /obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
+/obj/effect/spawner/lootdrop/magic_loot_tier_1/x3,
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/mountains)
 "wQa" = (
@@ -94716,6 +94986,7 @@
 	dir = 1
 	},
 /obj/structure/bars/pipe,
+/obj/effect/spawner/lootdrop/magic_loot_tier_2/x3,
 /turf/open/floor/rogue/metal/barograte/open,
 /area/rogue/under/underdark/north)
 "xrh" = (
@@ -95444,6 +95715,7 @@
 "xAb" = (
 /obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
 /obj/structure/closet/crate/chest/wicker,
+/obj/effect/spawner/lootdrop/magic_loot_base,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/outdoors/beach)
 "xAd" = (
@@ -95900,6 +96172,7 @@
 "xFV" = (
 /obj/structure/closet/crate/chest,
 /obj/item/roguecoin/copper/pile,
+/obj/effect/spawner/lootdrop/magic_loot_base/x3,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet/bogcaves/north)
 "xFW" = (
@@ -97213,6 +97486,10 @@
 	},
 /turf/open/floor/rogue/churchbrick,
 /area/rogue/indoors/town/steward)
+"xVv" = (
+/obj/effect/spawner/lootdrop/magic_loot_base,
+/turf/open/floor/rogue/cobble,
+/area/rogue/under/cave/skeletoncrypt)
 "xVw" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/rogue/dirt,
@@ -99939,7 +100216,7 @@ xdk
 xNc
 xNc
 xNc
-xNc
+aWA
 xNc
 xNc
 xNc
@@ -101743,14 +102020,14 @@ xNc
 beZ
 hwl
 hwl
-xdk
+jqM
 xNc
 hwl
 xqY
 hwl
 xNc
 xdk
-hwl
+akB
 hwl
 beZ
 xNc
@@ -102193,7 +102470,7 @@ oKd
 wNY
 sYI
 sYI
-sYI
+pZB
 sYI
 rra
 sYI
@@ -102648,12 +102925,12 @@ xNc
 xNc
 xNc
 xdk
-xNc
+qDO
 aHi
 ioT
 aHi
 xNc
-xdk
+beD
 xNc
 dhQ
 xNc
@@ -103105,11 +103382,11 @@ ndd
 ydq
 ndd
 aHi
-xdk
+tSq
 hwl
 hwl
 hwl
-xNc
+aWA
 xNc
 wNY
 xNc
@@ -103999,10 +104276,10 @@ oKd
 oKd
 oKd
 wNY
-xNc
+aWA
 hwl
 xuX
-hwl
+qft
 xdk
 aHi
 ndd
@@ -104456,7 +104733,7 @@ wVB
 wVB
 wVB
 lXS
-xNc
+qDO
 aHi
 ioT
 aHi
@@ -104464,7 +104741,7 @@ xNc
 xdk
 dhQ
 xNc
-xNc
+eMZ
 xNc
 sJc
 aHi
@@ -104911,9 +105188,9 @@ xdk
 xNc
 xNc
 lWM
+qDO
 xNc
-xNc
-xdk
+beD
 xNc
 xNc
 dhQ
@@ -105368,7 +105645,7 @@ xNc
 xdk
 xuX
 hwl
-hwl
+akB
 xNc
 xNc
 aHi
@@ -105812,7 +106089,7 @@ hwl
 xNc
 xbL
 rra
-sYI
+pZB
 xbL
 xNc
 nKO
@@ -106719,7 +106996,7 @@ xdk
 jeF
 xNc
 xNc
-xNc
+aWA
 xNc
 xdk
 aHi
@@ -160678,11 +160955,11 @@ uir
 mhC
 jKQ
 yeg
-ryc
+xVv
 uCR
 cGX
 nlL
-ryc
+xVv
 xHs
 cGX
 pWw
@@ -161131,13 +161408,13 @@ mhC
 jKQ
 tBR
 uUU
-ryc
+xVv
 cGX
 bWB
 fug
 dqf
 cGX
-ryc
+xVv
 hMd
 ryc
 jKQ
@@ -161585,13 +161862,13 @@ ryc
 ryc
 ryc
 cGX
-ryc
+uix
 yeY
-nlL
+wdv
 cGX
 ryc
 ryc
-ryc
+xVv
 jKQ
 uZv
 uZv
@@ -184504,7 +184781,7 @@ cSe
 pYt
 pYt
 pYt
-fdq
+sIN
 ipw
 ipw
 ipw
@@ -185408,7 +185685,7 @@ cSe
 pYt
 pYt
 pYt
-hUV
+dAB
 ipw
 ipw
 fWI
@@ -194433,7 +194710,7 @@ eiD
 nMW
 eWn
 ilE
-iNA
+heP
 nMW
 nMW
 cSe
@@ -195070,7 +195347,7 @@ plu
 cRu
 fxt
 qVG
-nHW
+wLJ
 eoO
 ure
 qVG
@@ -250626,10 +250903,10 @@ pYE
 niJ
 mgM
 jQw
-oQp
+vTz
 jrE
 jQw
-oQp
+pYL
 ssb
 jQw
 tkN
@@ -273602,8 +273879,8 @@ onF
 hmi
 nVF
 tdH
-gFS
-gFS
+kOJ
+qqT
 gFS
 nqb
 wFd
@@ -274505,14 +274782,14 @@ tsB
 tsB
 hmi
 vHO
-xZK
+aTv
 ozn
+fLF
 gFS
-gFS
-gFS
+qqT
 mZh
 xZK
-aEl
+coZ
 xKn
 qeV
 gTF
@@ -274963,7 +275240,7 @@ gFS
 thP
 atR
 mZh
-xZK
+tPx
 xZK
 ucs
 ozn
@@ -275409,11 +275686,11 @@ tsB
 tsB
 hmi
 vHO
-xZK
+bGR
 ozn
-gFS
+qqT
 lml
-gFS
+fLF
 mZh
 xZK
 aEl
@@ -275862,10 +276139,10 @@ tsB
 hmi
 xKn
 kES
-gFS
+vcm
 muD
 fVE
-gFS
+vcm
 vMn
 qYH
 uLj
@@ -276316,7 +276593,7 @@ wFd
 olJ
 ygz
 gOD
-gFS
+vcm
 gFS
 nVF
 kMG
@@ -338716,7 +338993,7 @@ vBs
 vBs
 vBs
 vqS
-vBv
+ccN
 hhV
 vBs
 vBs
@@ -387409,8 +387686,8 @@ qwL
 ikm
 tWr
 kMe
-kDy
-kDy
+fOx
+sJv
 kDy
 amx
 ujm
@@ -387861,8 +388138,8 @@ pHB
 qAj
 vvV
 jdn
-kDy
-kDy
+fOx
+ewe
 nzd
 ujm
 ujm
@@ -388313,9 +388590,9 @@ kMe
 vNN
 vNN
 kMe
-kDy
-kDy
-kDy
+sJv
+fOx
+wCJ
 ujm
 tsB
 tsB
@@ -388927,7 +389204,7 @@ tVb
 tmN
 usj
 tVb
-tmN
+pET
 usj
 jth
 tVb
@@ -417906,7 +418183,7 @@ aBB
 aBB
 aBB
 jWF
-mQO
+wAH
 kbo
 tlX
 tlX
