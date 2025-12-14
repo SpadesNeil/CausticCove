@@ -1,6 +1,34 @@
 /datum/belly_overlays
 	var/belly_icon
 
+/datum/belly_overlays/a_tumby
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/a_tumby.dmi'
+
+/datum/belly_overlays/another_tumby
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/another_tumby.dmi'
+
+/datum/belly_overlays/base
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/base.dmi'
+
+/datum/belly_overlays/brown_internals
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/brown_internals.dmi'
+
+/datum/belly_overlays/brown_internals_hole
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/brown_internals_hole.dmi'
+
+/datum/belly_overlays/da_tumby
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/da_tumby.dmi'
+
+/datum/belly_overlays/dark
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/dark.dmi'
+
+/datum/belly_overlays/synth_flesh_mono
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/synth_flesh_mono.dmi'
+
+/datum/belly_overlays/synth_flesh_mono_hole
+	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/synth_flesh_mono_hole.dmi'
+
+
 /datum/belly_overlays/vbo_belly1
 	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/VBO_belly1.dmi'
 
@@ -237,33 +265,6 @@
 
 /datum/belly_overlays/vboanim_taurbelly1
 	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/VBOanim_taurbelly1.dmi'
-
-/datum/belly_overlays/a_tumby
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/a_tumby.dmi'
-
-/datum/belly_overlays/another_tumby
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/another_tumby.dmi'
-
-/datum/belly_overlays/base
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/base.dmi'
-
-/datum/belly_overlays/brown_internals
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/brown_internals.dmi'
-
-/datum/belly_overlays/brown_internals_hole
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/brown_internals_hole.dmi'
-
-/datum/belly_overlays/da_tumby
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/da_tumby.dmi'
-
-/datum/belly_overlays/dark
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/dark.dmi'
-
-/datum/belly_overlays/synth_flesh_mono
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/synth_flesh_mono.dmi'
-
-/datum/belly_overlays/synth_flesh_mono_hole
-	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/synth_flesh_mono_hole.dmi'
 
 /datum/belly_overlays/yet_another_tumby
 	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/yet_another_tumby.dmi'
