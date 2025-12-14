@@ -28,7 +28,6 @@
 /datum/belly_overlays/synth_flesh_mono_hole
 	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/synth_flesh_mono_hole.dmi'
 
-
 /datum/belly_overlays/vbo_belly1
 	belly_icon = 'modular_causticcove/icons/mob/vore_fullscreens/VBO_belly1.dmi'
 
