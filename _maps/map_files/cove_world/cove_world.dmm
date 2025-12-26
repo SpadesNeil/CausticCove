@@ -827,14 +827,19 @@
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/tavern)
 "alY" = (
-/obj/structure/rack/rogue/shelf{
-	pixel_y = -32
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 5;
 	pixel_y = 1
 	},
 /obj/structure/table/wood/poor,
+/obj/item/reagent_containers/glass/cup{
+	pixel_x = 11;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/glass/cup{
+	pixel_x = -4;
+	pixel_y = 4
+	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town)
 "amf" = (
@@ -15801,17 +15806,6 @@
 /obj/structure/bed/rogue/inn/hay,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/cave/east)
-"dYR" = (
-/obj/item/reagent_containers/glass/cup{
-	pixel_x = -6;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/glass/cup{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/turf/closed/wall/mineral/rogue/decowood/vert,
-/area/rogue/indoors/town)
 "dYT" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/hoe,
@@ -86557,6 +86551,10 @@
 /obj/structure/fluff/walldeco/bigpainting/lake,
 /turf/open/floor/rogue/carpet/lord/center,
 /area/rogue/under/cave/licharena)
+"vmG" = (
+/obj/item/roguebin/water,
+/turf/open/floor/rogue/tile/bfloorz,
+/area/rogue/indoors/town/manor)
 "vmL" = (
 /obj/item/bedsheet/rogue/double_pelt,
 /obj/structure/bed/rogue/inn/wooldouble,
@@ -97160,6 +97158,13 @@
 "xQM" = (
 /turf/open/floor/carpet/stellar,
 /area/rogue/indoors/town/tavern)
+"xQP" = (
+/obj/structure/rack/rogue,
+/obj/item/rogueweapon/huntingknife/wood,
+/obj/item/rogueweapon/huntingknife/wood,
+/obj/item/rogueweapon/huntingknife/wood,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/town/manor)
 "xQU" = (
 /obj/structure/stairs{
 	dir = 4
@@ -265067,7 +265072,7 @@ dra
 pXZ
 dra
 alY
-dYR
+uBc
 qpg
 aFv
 wMX
@@ -269624,7 +269629,7 @@ gzy
 weQ
 weQ
 hYq
-uQS
+xQP
 uQS
 uQS
 hrt
@@ -277292,7 +277297,7 @@ fUm
 xHQ
 ruD
 udY
-tjY
+vmG
 tjY
 qsj
 vxe
